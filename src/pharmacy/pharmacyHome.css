@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+.managerhomePageBody {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.imageContainer {
+    width: 50%;
+    text-align: right;
+    position: relative;
+    margin: 8px 32px 0 0;
+}
+
+.imageContainer img {
+    width: 100%;
+}
+
+.NavigationLink {
+    margin-left: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.NavigationLink:hover {
+    color: #77beeb;
+}
+
+.sectionHeading {
+    margin-top: 0;
+}
+
+.userNavigationLinks {
+    display: flex;
+}
+.clinicContainer {
+    margin: 28px 40px 0 40px;
+}
+.specialities{
+    background-image: url(https://cdn-japkb.nitrocdn.com/SSwUWpkTxoYvjJZwDMxKefCrTydDdImp/assets/images/optimized/rev-7d22fb8/starcitydentalne.com/wp-content/uploads/2022/01/dark-pattern.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.specialitiesHeading{
+    font-size: 68px;
+}
+.specialitiesText{
+    font-size: 26px;
+}
+.specialitiesHeading,.specialitiesText{
+    text-align: center;
+    color: honeydew;
+}
+footer{
+    background-color: cornflowerblue;
+}

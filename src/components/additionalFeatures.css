@@ -1,0 +1,25 @@
+  
+  .additionalFeatures {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  .facilityList ,.expertiseList{
+    list-style-type: circle;
+    padding: 0;
+    margin: 0;
+  }
+    
+  .facilityList li,
+  .expertiseList li {
+    margin-bottom: 5px;
+    justify-content: space-evenly;
+    font-size: 22px;
+  
+  }
+  .consultTime{
+    border: 1px solid black;
+    border-radius: 22px;
+    padding: 16px;
+    margin-top: 95px;
+  }

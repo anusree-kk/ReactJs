@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.mainHeader {
+  background-color: #10222e;
+}
+
+.heading {
+  text-align: center;
+  font-size: 32px;
+}
+.headingText {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 45px;
+}
+
+.managerWorkschedule {
+  width: 100%;
+  background: url("../media/clinic1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pharmacyAddMedicine{
+  width: 100%;
+  background: url("../media/clinic2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.doctorUpdateAppointmentLimit{
+  width: 100%;
+  background: url("../media/clinic2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.managerWorkscheduleContainer,.pharmacyAddMedicineContainer,.doctorUpdateAppointmentLimitContainer {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: block;
+  background-color: transparent;
+  margin-left: 150px;
+  padding: 150px 0;
+  width: 380px;
+}
+
+.managerWorkscheduleForm,.pharmacyAddMedicineForm {
+  width: 375px;
+  padding: 12px;
+}
+
+.imageContainer {
+  width: 35%;
+  text-align: right;
+  position: relative;
+  margin-right: 120px;
+}
+
+.imageContainer img {
+  width: 100%;
+  height: auto;
+}
+
+.userText,
+.departments {
+  margin-bottom: 10px;
+  color: black;
+}

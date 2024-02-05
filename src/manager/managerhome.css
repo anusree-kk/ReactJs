@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .managerhomePageBody {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+  }
+
+  .managerHomeImage {
+    width: 35%;
+    text-align: right;
+    position: relative;
+    margin-right: 120px;
+  }
+  
+  .managerHomeImage img {
+    width: 100%;
+    height: auto;
+  }
+  

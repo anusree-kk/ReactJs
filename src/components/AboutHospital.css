@@ -1,0 +1,15 @@
+.textContainer {
+    width: 40%;
+    line-height: 1.5;
+  }
+  .sectionHeading {
+    color: #3498db;
+    font-size: 38px;
+  
+  }
+  .clinicDescription {
+    font-size: 22px;
+    color: #555;
+  }
+  
+  

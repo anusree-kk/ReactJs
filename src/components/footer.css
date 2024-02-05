@@ -1,0 +1,40 @@
+
+.footerNavigations {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    background-color: #212a42;
+    color: white;
+  
+  }
+  
+  .footerHeading {
+    font-size: 24px;
+    margin: 0 0 24px 36px;
+  }
+  .footerIconHeading{
+    font-size: 24px;
+    margin: 0 0 28px;
+  }
+  
+  .footerDatalist,.footerLocationData {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    list-style: none;
+  }
+  .footerLocationData{
+    cursor: text;
+  }
+  .listItem{
+    margin-bottom: 8px;
+  }
+  
+  .iconimageContainer{
+    width: 5px;
+    height: 5px;
+  }
+  .social{
+    color: white;
+    margin-right: 30px;
+  }

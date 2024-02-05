@@ -1,0 +1,83 @@
+.employeeSignUpBody {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #212d39;
+  margin: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.employeeSignUpContainer {
+  background-color: #ffffff;
+  padding: 50px;
+  border-radius: 24px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+}
+
+.heading {
+  color: #333;
+}
+
+.employeeRegistrationForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.experience,
+.gender,
+.typesOfEmployees,
+.departments {
+  margin: 10px 0;
+  text-align: left;
+}
+
+.userText,
+.noOfExperience {
+  margin: 0 2px 0 6px;
+
+}
+.radioButton {
+  margin: 0 0 0 26px;
+  width: 22px;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 12px;
+  width: 350px;
+  box-sizing: border-box;
+  border: 1px solid #ced4da;
+  border-radius: 14px;
+}
+
+.dropDownDiv {
+  width: 345px;
+}
+
+.selectType {
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 350px;
+  box-sizing: border-box;
+  border: 1px solid #ced4da;
+  border-radius: 14px;
+}
+
+.submitButton {
+  padding: 12px;
+  background-color: #030609;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 90px;
+}
+
+.submitButton:hover {
+  background-color: #0056b3;
+}
+
